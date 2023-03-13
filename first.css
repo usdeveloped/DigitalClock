@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Spectral+SC:ital,wght@1,700&display=swap');
+*
+{
+	margin:0;
+	padding:0;
+	background-color:#202124;
+	color:#fff;
+	font-family: 'Spectral SC', serif;
+}
+.name
+{
+	color:#FF4500;
+}
+#top ul
+{
+	list-style-type:none;
+	display:flex;
+	justify-content:center;
+	font-size: 30px;
+	letter-spacing: 8px;
+	text-decoration:underline;
+}
+
+
+
+
+
+#getandset
+{
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+	height:fit-content;
+	margin: 50px 10px;
+}
+#getSet
+{
+	padding:5px;
+}
+.setoutput
+{
+	text-align:justify;
+	width:100%;
+	height:50px;
+}
+.sethere
+{	
+	text-align:justify;
+	width:100%;
+	height:30px;
+}
+#getvalue
+{
+	display:flex;
+	justify-content:center;
+}
+
+.table
+{
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+	padding:10px;
+	border:1px solid none;
+	border-radius:10px;
+	width:100%;
+	height:50vh;
+	font-size:30px;
+}
+
+.table tr td
+{
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	padding:15px;
+	text-align:center;
+	border:1px solid none;
+	border-radius:20px;
+}
+.table th
+{
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	padding:15px;
+	text-align:center;
+	border:1px solid none;
+	border-radius:20px;
+	
+}
+
+.buttons button 
+{
+	font-size:20px;
+	padding:5px;
+}
+.buttons 
+{
+	padding:10px;
+
+	text-align: center;
+}
+button
+{
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	width:80px;
+	height:30px;
+	border:none;
+}
+.touch
+{
+	animation-name:as;
+	animation-duration:0.8s;
+	transition:0.8s;
+}
+
+@keyframes as
+{
+	10%
+	{
+		background-color:aqua;
+	}
+	50%
+	{
+		background-color:red;
+	}
+	95%
+	{
+		background-color:#202124;
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
